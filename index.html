@@ -33,7 +33,43 @@
         
         </header>
 <!-- hero/ Jumbotron-->
-    <section>
+    <section class="hero">
+        <div class="hero-form">
+            <h3>
+                Get Started Today
+            </h3>
+            <p>
+               Fill out this form and one of our trainer will schedule a consult 
+            </p>
+            <form>
+                <label for="name"> Enter full name: </label>
+                <input type="text" placeholder="Your Name" name="name" id="name" />
+
+                <label for="email"> Enter email address: </label>
+                <input type="email" placeholder="Email Address" name="email" id="email" />
+
+                <label for="Phone"> Enter a telephone number: </label>
+                <input type="tel" placeholder="Phone Number" name="Phone" id="Phone" />
+               <p>
+                   Have you worked out with a trainer before?
+                   <input type="radio" name="trainer-confirm"   id="trainer-yes" />
+                   <label for="trainer-yes"> yes</label>
+
+                   <input type="radio" name="trainer-confirm" id="trainer-no" />
+                   <label for="trainer-no"> no</label>
+                </p>
+                <p> 
+                    <label for="checkbox"> 
+                        I acknoledge that I am atleast 18 years of age.
+                    </label>
+                    <input type="checkbox" name="age-confirm" id="checkbox" />
+                </p>
+                    <button type="submit"> 
+                        Lets get running!
+                    </button>
+            </form>
+        </div>
+    
 
     </section>
     <!-- 'what we do'-->

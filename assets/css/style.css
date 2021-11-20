@@ -69,4 +69,22 @@ footer a {
   color: #024e76;
 }
 
+/* hero style start */
+  .hero {
+  background-image: url( "../images/hero-bg.jpeg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+/* If something ccomes up wrong with website do to positioning its most likely gonna be do to hero style end */
 
+.hero-form {
+  color: #024e76;
+  background-color: #fce138;
+  padding: 15px;
+  width: 500px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
