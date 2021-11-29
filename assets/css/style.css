@@ -85,8 +85,8 @@ footer a {
   padding: 20px;
   width: 500px;
   position: absolute;
-  top: 20px;
-  left: 350px;
+  bottom: 120px;
+  right: 140px;
   border: solid 3px #024e76;
 }
 
@@ -234,6 +234,7 @@ border-color: #fce138;
 
 .contact h2 {
   color: #fce138;
+  
 }
 
 .contact-info iframe {
@@ -241,7 +242,7 @@ border-color: #fce138;
   height: 400px;
 }
 
-.contact-info, div {
+.contact-info {
   width: 410px;
   display: inline-block;
   vertical-align: top;
@@ -266,3 +267,5 @@ border-color: #fce138;
 .contact-info a {
   color: #fce138;
 }
+
+/* REACH OUT STYLES END */
